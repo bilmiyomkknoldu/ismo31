@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbthnn Software</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/script.js"></script>
+    <style>
+ 
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                <span>Xbthnn Software</span>
+            </a>
+            <div class="nav-links">
+                <a href="#products" class="nav-link">Ürünler</a>
+                <a href="#features" class="nav-link">Özellikler</a>
+                <a href="#reviews" class="nav-link">Yorumlar</a>
+                <a href="#faq" class="nav-link">SSS</a>
+                <a href="#contact" class="nav-link">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Xbthnn Software<br>
+                    <span>Yazılımın Geleceği</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Profesyonel Minecraft geliştirme çözümleri ile sunucunuzu bir üst seviyeye taşıyın. 
+                    Özel yazılımlar ve sistemler ile fark yaratın.
+                </p>
+                <div class="hero-btns">
+                    <a href="#products" class="hero-btn primary">
+                        Ürünleri Keşfet
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="https://discord.gg/xbthnndev" class="hero-btn secondary">
+                        Discord'a Katıl
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Mutlu Müşteri</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Özel Plugin</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Teknik Destek</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-cards">
+                    <div class="floating-card">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                        <h3>Kaptan</h3>
+                        <p>Gelişmiş Kaptan sistemi</p>
+                    </div>
+                    <div class="floating-card">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                        <h3>Bilet Skripti</h3>
+                        <p>Kapsamlı bilet sistemi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <style>
+
+    </style>
+
+    <section class="section section-dark" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Ürünlerimiz</span>
+                <h2 class="section-title">Premium Çözümler</h2>
+                <p class="section-description">
+                    Sunucunuz için özel geliştirilen plugin ve yazılımlar
+                </p>
+            </div>
+
+            <div class="products-grid">
+                <!-- PvP System -->
+                <div class="product-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="card-category">Plugin</span>
+                            <div class="card-tags">
+                                <span class="tag">1.20.x</span>
+                                <span class="tag">Plugin</span>
+                            </div>
+                        </div>
+                        <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                        <h3 class="product-title">Kaptan Plugin</h3>
+                        <p class="product-description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum odit, qui dignissimos unde cupiditate 
+                            voluptatibus eaque illum perspiciatis dolorem eius labore sed inventore ratione, nisi, non dolores. Nemo, 
+                            ipsum doloremque?
+                        </p>
+                        <div class="product-price">₺299.99</div>
+                        <div class="card-actions">
+                            <a href="https://discord.gg/xbthnndev" class="card-btn primary">Satın Al</a>
+                            <a href="https://discord.gg/xbthnndev" class="card-btn secondary">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Economy System -->
+                <div class="product-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="card-category">Skript</span>
+                            <div class="card-tags">
+                                <span class="tag">1.20.x</span>
+                                <span class="tag">Bilet Skripti</span>
+                            </div>
+                        </div>
+                        <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                        <h3 class="product-title">Bilet Skripti</h3>
+                        <p class="product-description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum odit, qui dignissimos unde cupiditate 
+                            voluptatibus eaque illum perspiciatis dolorem eius labore sed inventore ratione, nisi, non dolores. Nemo, 
+                            ipsum doloremque?
+                        </p>
+                        <div class="product-price">₺399.99</div>
+                        <div class="card-actions">
+                            <a href="https://discord.gg/xbthnndev" class="card-btn primary">Satın Al</a>
+                            <a href="https://discord.gg/xbthnndev" class="card-btn secondary">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core System -->
+                <div class="product-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="card-category">Plugin Paketi</span>
+                            <div class="card-tags">
+                                <span class="tag">1.20.x</span>
+                                <span class="tag">Plugin Paketi</span>
+                            </div>
+                        </div>
+                        <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <h3 class="product-title">Towny Plugin Paketi</h3>
+                        <p class="product-description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum odit, qui dignissimos unde cupiditate 
+                            voluptatibus eaque illum perspiciatis dolorem eius labore sed inventore ratione, nisi, non dolores. Nemo, 
+                            ipsum doloremque?
+                        </p>
+                        <div class="product-price">₺599.99</div>
+                        <div class="card-actions">
+                            <a href="https://discord.gg/xbthnndev" class="card-btn primary">Satın Al</a>
+                            <a href="https://discord.gg/xbthnndev" class="card-btn secondary">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Özellikler</span>
+                <h2 class="section-title">Neden Bizi Seçmelisiniz?</h2>
+                <p class="section-description">Size en iyi hizmeti sunmak için çalışıyoruz</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                    <h3 class="feature-title">Yüksek Performans</h3>
+                    <p class="feature-description">
+                        Optimize edilmiş kodlar ile sunucunuzda maksimum performans sağlayın.
+                        Lag sorunu yaşamadan çalışın.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                        <path d="M3 3v5h5"/>
+                        <path d="M21 3l-7 7"/>
+                    </svg>
+                    <h3 class="feature-title">Sürekli Güncelleme</h3>
+                    <p class="feature-description">
+                        Düzenli güncellemeler ve yeni özellikler ile sürekli gelişim.
+                        Her zaman en güncel sürüm desteği.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                    </svg>
+                    <h3 class="feature-title">7/24 Destek</h3>
+                    <p class="feature-description">
+                        Discord üzerinden profesyonel ve hızlı teknik destek.
+                        Sorularınıza anında çözüm.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                    <h3 class="feature-title">Özel Geliştirme</h3>
+                    <p class="feature-description">
+                        Sunucunuza özel plugin ve sistem geliştirme hizmeti.
+                        Tam istediğiniz gibi özelleştirme.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section section-dark" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Yorumlar</span>
+                <h2 class="section-title">Mutlu Müşterilerimiz</h2>
+                <p class="section-description">Müşterilerimizin bizim hakkımızda söyledikleri</p>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-content">
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">
+                            "PvP sistemi sunucumuzda harika çalışıyor. Oyuncularımız çok memnun! Optimizasyon gerçekten üst düzey."
+                        </p>
+                        <div class="review-author">
+                            <div class="review-avatar">M</div>
+                            <div class="review-info">
+                                <h4 class="review-name">Görkem A.</h4>
+                                <p class="review-title">Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-content">
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">
+                            "Ekonomi sistemi tam istediğimiz gibi. Destek ekibi her sorunumuza anında çözüm buluyor."
+                        </p>
+                        <div class="review-author">
+                            <div class="review-avatar">A</div>
+                            <div class="review-info">
+                                <h4 class="review-name">İsmail</h4>
+                                <p class="review-title">Sunucu Yöneticisi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-content">
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">
+                            "Core sistem performansı inanılmaz. Kesinlikle tavsiye ediyorum. MySQL entegrasyonu çok başarılı."
+                        </p>
+                        <div class="review-author">
+                            <div class="review-avatar">K</div>
+                            <div class="review-info">
+                                <h4 class="review-name">Berkay</h4>
+                                <p class="review-title">Müşteri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">SSS</span>
+                <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+                <p class="section-description">Merak ettiğiniz soruların cevapları</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Satın aldığım ürünleri nasıl indirebilirim?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Satın alım sonrası size özel müşteri panelinizden tüm ürünlerinize ve güncellemelerine erişebilirsiniz. Kurulum desteği Discord üzerinden sağlanmaktadır.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Ürünler hangi sürümleri destekliyor?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tüm ürünlerimiz en güncel Minecraft sürümlerini desteklemektedir. Eski sürüm desteği için bizimle iletişime geçebilirsiniz.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Özel geliştirme talep edebilir miyim?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, sunucunuza özel plugin ve sistem geliştirme hizmetimiz mevcuttur. Discord üzerinden detaylı bilgi alabilirsiniz.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Ödeme yöntemleri nelerdir?</h3>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Kredi kartı, havale/EFT ve kripto para ile ödeme kabul ediyoruz. Ödemeler tamamen güvenli bir şekilde gerçekleştirilmektedir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Xbthnn Software</h3>
+                    <p>Premium Minecraft geliştirme çözümleri sunan profesyonel ekip. Sunucunuz için en iyi çözümleri üretiyoruz.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77 5.44 5.44 0 0 0 3.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Hızlı Linkler</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#products">Ürünler</a></li>
+                        <li class="footer-link"><a href="#features">Özellikler</a></li>
+                        <li class="footer-link"><a href="#reviews">Yorumlar</a></li>
+                        <li class="footer-link"><a href="#faq">SSS</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">İletişim</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link">
+                            <a href="https://discord.gg/xbthnndev">Discord: discord.gg/xbthnndev</a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="mailto:info@xbthnndev.com">Email: info@xbthnnsoftware.com</a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="mailto:destek@xbthnn.com">Destek: destek@xbthnnsoftware.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Xbthnn Software. Tüm hakları saklıdır.</p>
+                <div class="developer-credit">
+                    <span id="developer-name"></span> | <span id="developer-sirket"></span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+    </script>
+</body>
+</html>
